@@ -8,8 +8,8 @@
         ExtraVelocityLimit = extraVelocityLimit;
     }
 
-    public float SpeedLimit;
-    public float MovementDrag;
-    public float ExtraVelocityDrag;
-    public float ExtraVelocityLimit;
+    public readonly float SpeedLimit;
+    public readonly float MovementDrag;
+    public readonly float ExtraVelocityDrag;
+    public readonly float ExtraVelocityLimit;
 }

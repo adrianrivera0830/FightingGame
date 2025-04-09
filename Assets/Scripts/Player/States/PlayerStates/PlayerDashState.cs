@@ -2,6 +2,7 @@
 
 public class PlayerDashState: PlayerBaseState
 {
+    //por implementar clase
     public PlayerDashState(PlayerContext context) : base(context)
     {
     }

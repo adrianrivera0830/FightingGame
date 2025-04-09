@@ -1,7 +1,9 @@
-﻿namespace Interfaces
+﻿using UnityEngine;
+
+namespace Interfaces
 {
-    public class IObjectRotator
+    public interface IObjectRotator
     {
-        
+        public void RotateTowards(Vector3 target);
     }
 }

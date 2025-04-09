@@ -1,7 +1,13 @@
-﻿namespace Player
+﻿using UnityEngine;
+
+namespace Player
 {
-    public class PlayerUtils
+    public static class PlayerUtils
     {
-        
+        public static Vector3 GetRelativeDirection(Vector3 direction, Transform transform)
+        {
+            var dir = direction.x * transform.right + direction.z * transform.forward;
+            return dir.normalized;
+        }
     }
 }

@@ -10,6 +10,7 @@ public class PlayerWallJumpState : PlayerBaseState
     
     public PlayerWallJumpState(PlayerContext context) : base(context)
     {
+        //Sub estados
         stateMachine = new StateMachine();
         _playerWallJumpBackward = new PlayerWallJumpBackward(context);
         _playerWallJumpForward = new PlayerWallJumpForward(context);
